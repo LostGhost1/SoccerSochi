@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/newsFragment">
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.soccersochi.ui.news.NewsFragment"
+        android:label="Новости"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/meetsFragment"
+        android:name="com.example.soccersochi.ui.meets.MeetsFragment"
+        android:label="Мероприятия"
+        tools:layout="@layout/fragment_meets" />
+    <fragment
+        android:id="@+id/merchFragment"
+        android:name="com.example.soccersochi.ui.merch.MerchFragment"
+        android:label="Магазин"
+        tools:layout="@layout/fragment_merch" />
+    <fragment
+        android:id="@+id/socialFragment"
+        android:name="com.example.soccersochi.ui.socialnetworkfeed.SocialNetworkFeedFragment"
+        android:label="Сообщества"
+        tools:layout="@layout/fragment_socialnetwork" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.soccersochi.ui.account.AccountFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_account" />/>
+</navigation>
